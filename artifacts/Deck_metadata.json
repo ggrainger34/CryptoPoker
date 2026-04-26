@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "lookupCard",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PokerGame.sol": "Deck"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PokerGame.sol": {
+			"keccak256": "0x312553022bc30f070cdb25e14ffc2d3c8dcd71b41b2a3dc1e9e960c5f752c813",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69fdc3de5919106d816cfeb2dc87e4b9a552de02569783d8d4cb80c7fd44fa08",
+				"dweb:/ipfs/QmQGx5CbHeyFDxeHXBd6QrgaQu1n9fB1bZPCVKqARfoiKw"
+			]
+		}
+	},
+	"version": 1
+}
